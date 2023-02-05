@@ -33,6 +33,7 @@ nav a.current{
     /* Set text decoration, transformation, and underline properties */
     text-decoration-line: underline;
     text-decoration-style: wavy;
+    text-underline-offset: 15px;
     text-transform:uppercase;
 }
 
@@ -67,7 +68,7 @@ h1, h2, h3{
     width:90%;
     grid-template-columns: 30% 30% 30%;
     grid-row-gap:10px;
-    justify-content: center;
+    justify-content: space-between;
     background-color: rgb(34, 95, 149);
     border-style:solid;
     border-radius: 20px;
@@ -96,7 +97,7 @@ h1, h2, h3{
     /* Set width, margin, and display */
     width:90%;
     margin: auto;
-    display: inline-block;
+    display: block;
 }
 
 
@@ -131,6 +132,6 @@ p{
 .grid ul li{
     /* Set margin, line-spacing, list styling  */
     line-height: 1;
-    margin: 0px 0px 10px 10px;
+    margin: 0px 0px 10px 50px;
     list-style-image: url(../images/sketchbook.png);
 }
